@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title data-i18n="pageTitle">SafeWork - Workplace Safety Platform</title>
+  <meta name="keywords" content="seguridad laboral, incidentes en el trabajo, prevención de accidentes, reportes de seguridad, SafeWork, seguridad en empresas, gestión de incidentes, seguridad ocupacional" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="SafeWork Logo" data-i18n="logoAlt"/>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about" data-i18n="about">About us</a></li>
+        <li><a href="#services" data-i18n="services">Services</a></li>
+        <li><a href="#plans" data-i18n="plans">Plans</a></li>
+        <li><a href="#testimonials" data-i18n="testimonials">Testimonials</a></li>
+        <li><a href="#faq" data-i18n="faq">FAQ</a></li>
+        <li><a href="#benefits" data-i18n="benefits">Benefits</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switcher">
+      <label class="switch">
+        <input type="checkbox" id="langToggle">
+        <span class="slider"></span>
+      </label>
+      <span class="lang-label" id="langLabel">EN</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+      <h1 data-i18n="heroTitle">Report and resolve workplace incidents in real time</h1>
+      <p data-i18n="heroDesc">
+        SafeWork empowers your team to report accidents, risks, and safety issues instantly.<br />
+        No paperwork, no delays.
+      </p>
+      <a href="https://delightful-glacier-03ccd4010.1.azurestaticapps.net/" class="cta-btn" data-i18n="startNow">Start Now</a>
+
+    </div>
+  </section>
+
+  <!-- Videos Section -->
+<section class="videos-section">
+  <h2 class="section-title">Our Story</h2>
+
+  <div class="videos-container">
+    <div class="video-box">
+      <h3>About the Team</h3>
+      <video controls>
+        <source src="assets/video1.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="video-box">
+      <h3>About the Product</h3>
+      <video controls>
+        <source src="assets/video2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+
+<!-- About Us Section -->
+<section class="about" id="about">
+  <div class="about-container">
+    <h2 class="section-title" data-i18n="aboutTitle">About Us</h2>
+    <p data-i18n="aboutParagraph1">
+      At SafeWork, we believe workplace safety should be a priority, not an afterthought. Our platform is designed to revolutionize how workplace incidents are reported, tracked, and resolved, making environments safer for everyone.
+    </p>
+    <p data-i18n="aboutParagraph2">
+      With a mix of industrial expertise and cutting-edge technology, our goal is to empower companies to act swiftly, reducing response times and preventing further incidents.
+    </p>
+    <div class="mission-vision">
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+        <h3 data-i18n="missionTitle">Mission</h3>
+        <hr>
+        <p data-i18n="missionText">To equip every company with the tools they need to act immediately, ensuring safety is never compromised.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+        <h3 data-i18n="visionTitle">Vision</h3>
+        <hr>
+        <p data-i18n="visionText">A world where every workplace is proactively safe, and each incident is a lesson for improvement.</p>
+      </div>
+    </div>
+    <div class="cta">
+      <p data-i18n="ctaAbout">Ready to transform your safety culture? <a href="#contact" data-i18n="contactLink">Contact us</a> to learn more!</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Services Section -->
+<section class="services" id="services">
+  <h2 class="section-title" data-i18n="servicesTitle">Our Services</h2>
+  <p class="subtitle" data-i18n="servicesSubtitle">
+    The all-in-one solution to elevate workplace safety and operational efficiency.
+  </p>
+  <div class="services-grid">
+    <div class="service-box">
+      <img src="assets/alarm.png" alt="Service 1" class="service-image" data-i18n="srv1alt">
+      <h3 data-i18n="srv1">Real-Time Incident Reporting</h3>
+      <p data-i18n="srv1desc">
+        Capture and report incidents on the spot—no paperwork, no delays.
+      </p>
+    </div>
+    <div class="service-box purple">
+      <img src="assets/engineering.png" alt="Service 2" class="service-image" data-i18n="srv2alt">
+      <h3 data-i18n="srv2">Smart Task Automation</h3>
+      <p data-i18n="srv2desc">
+        Automatically assign corrective actions to the right person at the right time.
+      </p>
+    </div>
+    <div class="service-box dark">
+      <img src="assets/graphic.png" alt="Service 3" class="service-image" data-i18n="srv3alt">
+      <h3 data-i18n="srv3">Incident Lifecycle Tracking</h3>
+      <p data-i18n="srv3desc">
+        Monitor every incident from initial report to final resolution seamlessly.
+      </p>
+    </div>
+    <div class="service-box light">
+      <img src="assets/cyber-security.png" alt="Service 4" class="service-image" data-i18n="srv4alt">
+      <h3 data-i18n="srv4">Instant Safety Alerts</h3>
+      <p data-i18n="srv4desc">
+        Instantly alert key personnel via push notifications and email.
+      </p>
+    </div>
+    <div class="service-box dark">
+      <img src="assets/information.png" alt="Service 5" class="service-image" data-i18n="srv5alt">
+      <h3 data-i18n="srv5">Analytics & Compliance Reports</h3>
+      <p data-i18n="srv5desc">
+        Gain insights with visual dashboards and generate audit-ready reports.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Plans Section -->
+<div class="pricing-container" id="plans">
+  <h2 class="pricing-title" data-i18n="plansTitle">Our Plans</h2>
+  <p class="pricing-subtitle" data-i18n="plansSubtitle">Choose the plan that best suits your needs...</p>
+  
+  <table class="pricing-table">
+    <thead>
+      <tr>
+        <th class="feature" data-i18n="feature">Features</th>
+        <th class="plan-title" data-i18n="basicPlan">Basic Plan</th>
+        <th class="plan-title" data-i18n="standardPlan">Standard Plan</th>
+        <th class="plan-title" data-i18n="premiumPlan">Premium Plan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-i18n="featIncidentReporting">Accident and Incident Reporting</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="featReportManagement">Report Management</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="featCaseTracking">Case Tracking and Status</td>
+        <td data-i18n="cross">✘</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="featSupport">24/7 Support</td>
+        <td data-i18n="cross">✘</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="featProfile">Customized Profile</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="featNotification">Notification System</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="featDocs">Document Management</td>
+        <td data-i18n="cross">✘</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="featCommunication">Internal Communication</td>
+        <td data-i18n="cross">✘</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="featStats">Advanced Stats & Reports</td>
+        <td data-i18n="cross">✘</td>
+        <td data-i18n="cross">✘</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="featWorkflow">Workflow Automation</td>
+        <td data-i18n="cross">✘</td>
+        <td data-i18n="cross">✘</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="featIntegration">Integration with Other Tools</td>
+        <td data-i18n="cross">✘</td>
+        <td data-i18n="check">✔</td>
+        <td data-i18n="check">✔</td>
+      </tr>
+      <tr>
+        <td data-i18n="price">Price</td>
+        <td data-i18n="basicPrice">$15/month</td>
+        <td data-i18n="standardPrice">$30/month</td>
+        <td data-i18n="premiumPrice">$50/month</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Plan selection buttons -->
+  <div class="cta-buttons">
+    <a href="plan-basic.html" class="cta-button" target="_blank" rel="noopener noreferrer" data-i18n="learnMore">Learn More</a>
+    <a href="plan-enterprise.html" class="cta-button" target="_blank" rel="noopener noreferrer" data-i18n="learnMore">Learn More</a>
+    <a href="plan-pro.html" class="cta-button" target="_blank" rel="noopener noreferrer" data-i18n="learnMore">Learn More</a>
+  </div>
+
+  <!-- Plan Details -->
+  <div class="plan-detail" id="plan-basico">
+    <h3 data-i18n="basicPlan">Basic Plan</h3>
+    <p data-i18n="basicPlanDesc">The ideal plan for small businesses needing a simple and effective system to report workplace incidents.</p>
+    <ul>
+      <li data-i18n="basic1">✔ Real-time accident reporting</li>
+      <li data-i18n="basic2">✔ Limited support (business hours)</li>
+      <li data-i18n="basic3">✔ Basic report management</li>
+    </ul>
+  </div>
+  <div class="plan-detail" id="plan-estandar">
+    <h3 data-i18n="standardPlan">Standard Plan</h3>
+    <p data-i18n="standardPlanDesc">Perfect for businesses needing an intermediate solution with advanced features and extended support.</p>
+    <ul>
+      <li data-i18n="standard1">✔ Incident reporting and management with real-time notifications</li>
+      <li data-i18n="standard2">✔ 24/7 support</li>
+      <li data-i18n="standard3">✔ Integration with external tools</li>
+    </ul>
+  </div>
+  <div class="plan-detail" id="plan-premium">
+    <h3 data-i18n="premiumPlan">Premium Plan</h3>
+    <p data-i18n="premiumPlanDesc">The most complete solution for large enterprises looking to maximize workplace safety with all advanced features.</p>
+    <ul>
+      <li data-i18n="premium1">✔ Everything in previous plans</li>
+      <li data-i18n="premium2">✔ Advanced stats and reports</li>
+      <li data-i18n="premium3">✔ Workflow automation</li>
+      <li data-i18n="premium4">✔ API integration for full customization</li>
+    </ul>
+  </div>
+</div>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <h2 class="section-title" data-i18n="testimonialsTitle">What Our Users Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <img src="assets/user1.jpg" alt="Carlos" class="testimonial-photo" data-i18n="testimonial1alt"/>
+        <p data-i18n="testimonial1">
+          “Before using SafeWork, our incident response process was slow, manual, and full of gaps. With SafeWork, everything changed. 
+          We now receive instant notifications, assign follow-ups within minutes, and can track resolution progress in real time. 
+          This platform has truly streamlined our safety management. I can’t imagine going back to paper logs or spreadsheets.”
+        </p>
+        <span data-i18n="testimonial1Name">— Carlos M., Safety Manager</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="assets/user2.jpg" alt="Ana" class="testimonial-photo" data-i18n="testimonial2alt"/>
+        <p data-i18n="testimonial2">
+          “SafeWork has significantly improved communication between departments. Whenever an incident occurs, the relevant people are 
+          notified immediately, and follow-up actions are clear and traceable. The user interface is intuitive, and even non-technical 
+          staff were able to adapt quickly. It has become an essential part of our daily safety operations.”
+        </p>
+        <span data-i18n="testimonial2Name">— Ana R., HSE Coordinator</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="assets/user3.jpg" alt="Luis" class="testimonial-photo" data-i18n="testimonial3alt"/>
+        <p data-i18n="testimonial3">
+          “We needed a solution that would help us track safety data across multiple sites and teams. SafeWork delivered that and more. 
+          The analytics tools alone have helped us identify trends and reduce repetitive incidents. Our management team now has real-time 
+          visibility into compliance. It’s a game changer for large organizations like ours.”
+        </p>
+        <span data-i18n="testimonial3Name">— Luis T., Site Supervisor</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" id="faq">
+    <h2 class="section-title" data-i18n="faqTitle">Frequently Asked Questions</h2>
+    <div class="faq-box">
+      <div class="faq-item">
+        <h4 data-i18n="faq1q">Do I need internet to use the app?</h4>
+        <p data-i18n="faq1a">The app works offline. All reports are stored locally and automatically synced once online.</p>
+      </div>
+      <div class="faq-item">
+        <h4 data-i18n="faq2q">Can it integrate with our existing systems?</h4>
+        <p data-i18n="faq2a">Yes, the Corporate Plan includes API access and custom integrations.</p>
+      </div>
+      <div class="faq-item">
+        <h4 data-i18n="faq3q">Does it comply with safety regulations?</h4>
+        <p data-i18n="faq3a">SafeWork follows ISO 45001 and can adapt to your country’s laws.</p>
+      </div>
+      <div class="faq-item">
+        <h4 data-i18n="faq4q">Is training required to use SafeWork?</h4>
+        <p data-i18n="faq4a">No, it's intuitive. Optional training is available for admins.</p>
+      </div>
+      <div class="faq-item">
+        <h4 data-i18n="faq5q">How secure is the data stored?</h4>
+        <p data-i18n="faq5a">We use encryption, cloud infrastructure, and regular backups.</p>
+      </div>
+      <div class="faq-item">
+        <h4 data-i18n="faq6q">What happens if we need help or support?</h4>
+        <p data-i18n="faq6a">All plans include support. Premium users get priority or dedicated agents.</p>
+      </div>
+      <div class="faq-item">
+        <h4 data-i18n="faq7q">Can users submit anonymous reports?</h4>
+        <p data-i18n="faq7a">Yes. Anonymous reporting can be enabled or disabled by the admin.</p>
+      </div>
+      <div class="faq-item">
+        <h4 data-i18n="faq8q">Is there a mobile version?</h4>
+        <p data-i18n="faq8a">Yes. SafeWork works on web, Android and iOS devices, fully responsive.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Benefits Section -->
+<section id="benefits" class="section benefits">
+  <div class="container"> 
+    <h2 data-i18n="benefitsTitle" class="section-title">Why Choose SafeWork?</h2>
+    <p class="benefits-intro" data-i18n="benefitsIntro">
+      SafeWork transforms workplace safety into a seamless and engaging experience. 
+      With powerful tools and intelligent automation, your company gains 
+      peace of mind while fostering a culture of prevention and productivity.
+    </p>
+
+    <div class="benefits-list">
+      <div class="benefit-item">
+        <img src="assets/ReportAlert.png" alt="Alerts" class="benefit-icon" />
+        <div>
+          <h3 data-i18n="benefit1Title">Real-Time Alerts</h3>
+          <p data-i18n="benefit1Desc">
+            Instantly detect and address risks with smart notifications before accidents occur.
+          </p>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <img src="assets/timer.png" alt="Reports" class="benefit-icon" />
+        <div>
+          <h3 data-i18n="benefit2Title">Automated Reports</h3>
+          <p data-i18n="benefit2Desc">
+            Generate compliance reports effortlessly and keep your business aligned with regulations.
+          </p>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <img src="assets/collaboration.png" alt="Team" class="benefit-icon" />
+        <div>
+          <h3 data-i18n="benefit3Title">Empowered Teams</h3>
+          <p data-i18n="benefit3Desc">
+            Encourage collaboration and accountability while reducing downtime and costs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <img src="assets/logo.png" alt="SafeWork Logo" data-i18n="logoAltFooter"/>
+          <h3 data-i18n="footerTitle">SAFEWORK</h3>
+        </div>
+        <p data-i18n="footerRights">© 2025 SafeWork — All rights reserved</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="contactTitle">Contact</h4>
+        <p data-i18n="contactEmail">📧 contact@safework.com</p>
+        <p data-i18n="contactPhone">📞 +1 (555) 123-4567</p>
+        <p data-i18n="contactWeb">🌐 www.safework.com</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="officesTitle">Sedes</h4>
+        <p data-i18n="office1">Lima, Perú</p>
+        <p data-i18n="office2">Miami, USA</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="social">Social :</h4>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/company/your-company" target="_blank" rel="noopener">
+            <img src="assets/linkedin-icon.png" alt="LinkedIn" class="social-icon" data-i18n="linkedinAlt"/>
+          </a>
+          <a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener">
+            <img src="assets/facebook-icon.png" alt="Facebook" class="social-icon" data-i18n="facebookAlt"/>
+          </a>
+          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener">
+            <img src="assets/twitter-icon.png" alt="Twitter" class="social-icon" data-i18n="twitterAlt"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="translate.js"></script>
+  <script src="slider.js"></script>
+</body>
+</html>
