@@ -1,34 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Basic Plan - Your Service</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <div class="logo"><img src="assets/logo.png" alt="Logo" /></div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="plans" style="padding-top: 4rem;">
-    <div class="plan-card plan-card-basic">
-      <h3>Basic Plan</h3>
-      <p>An affordable entry-level solution designed for small businesses starting their safety journey.</p>
-      <ul>
-        <li>Simple dashboard with essential metrics</li>
-        <li>Email support</li>
-        <li>1 active project</li>
-        <li>Basic user management and roles.</li>
-      </ul>
-      <p><strong>Price:</strong> $15.00 / month</p>
-      <button class="plan-btn" onclick="window.location.href='index.html'">Go Back to Home</button>
-    </div>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SafeWork — Commercial proposal</title>
+    <meta
+      name="description"
+      content="SafeWork: an Android app to report, handle and follow up on workplace incidents. A NexoraPe project."
+    />
+    <meta name="theme-color" content="#0D0C22" />
+    <link rel="icon" href="assets/brand-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="translate.js" defer></script>
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main" data-i18n="t4">Skip to content</a>
+    <header class="header">
+      <div class="wrap nav-wrap">
+        <a class="brand" href="index.html"
+          >SafeWork<span class="brand-dot">.</span></a
+        >
+        <div class="nav-actions">
+          <button
+            class="language"
+            id="language"
+            type="button"
+            aria-label="Switch to Spanish"
+          >
+            EN / ES</button
+          ><a class="text-link" href="index.html#planes" data-i18n="plan.back"
+            >All plans</a
+          >
+        </div>
+      </div>
+    </header>
+    <main class="section wrap plan-page" id="main">
+      <div class="plan-page-copy">
+        <div class="eyebrow" data-i18n="t82">COMMERCIAL PROPOSAL</div>
+        <h1 data-i18n="t83">Basic</h1>
+        <p data-i18n="t84">Start organizing your reports.</p>
+        <div class="price">
+          $15<span> / <span data-i18n="t85">month</span></span>
+        </div>
+        <p data-i18n="t142">
+          Indicative price for the academic business model. Purchasing and
+          payments are not enabled.
+        </p>
+        <a class="button" href="index.html#producto" data-i18n="t148"
+          >Explore the current app</a
+        >
+      </div>
+      <aside class="install-card">
+        <h2 data-i18n="t143">Proposed scope</h2>
+        <ul>
+          <li data-i18n="t79">Incident reporting</li>
+          <li data-i18n="t80">Profile and invitation-based access</li>
+          <li data-i18n="t81">Status tracking</li>
+        </ul>
+        <p data-i18n="t147">
+          Commercial extensions require development and validation. See the
+          current app scope on the home page.
+        </p>
+      </aside>
+    </main>
+    <footer class="wrap footer-bottom">
+      <span>© 2026 SafeWork · NexoraPe</span
+      ><span data-i18n="t11">Academic project · UPC · 202620</span>
+    </footer>
+  </body>
 </html>
